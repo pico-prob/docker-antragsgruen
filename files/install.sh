@@ -4,7 +4,7 @@ apt-get update -q --fix-missing
 apt-get -yq upgrade
 apt-get -yq install -y --no-install-recommends \
     g++ \
-    texlive texlive-latex-extra texlive-generic-extra \
+    texlive texlive-latex-extra texlive-base \
     texlive-lang-german texlive-latex-base texlive-latex-recommended \
     texlive-humanities texlive-fonts-recommended texlive-xetex \
     poppler-utils libpython2-stdlib libpython2.7-minimal \
