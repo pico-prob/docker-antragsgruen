@@ -7,7 +7,9 @@ apt-get -yq install -y --no-install-recommends \
     texlive texlive-latex-extra texlive-generic-extra \
     texlive-lang-german texlive-latex-base texlive-latex-recommended \
     texlive-humanities texlive-fonts-recommended texlive-xetex \
-    poppler-utils python
+    poppler-utils libpython2-stdlib libpython2.7-minimal \
+    libpython2.7-stdlib python2 python2-minimal python2.7 \
+    python2.7-minimal python
 
 apt-get clean
 apt-get autoclean
